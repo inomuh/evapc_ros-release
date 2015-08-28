@@ -1,0 +1,9 @@
+ros-indigo-evarobot-pose-ekf (0.0.2-0trusty) trusty; urgency=high
+
+  * ...
+  * modified robot state
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 27 Aug 2015 21:00:00 -0000
+
+
