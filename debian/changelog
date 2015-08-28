@@ -1,0 +1,10 @@
+ros-indigo-evarobot-state-publisher (0.0.2-0saucy) saucy; urgency=high
+
+  * deleted static transform publisher of lidar_link in launch file
+  * ...
+  * modified robot state
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 27 Aug 2015 21:00:00 -0000
+
+
