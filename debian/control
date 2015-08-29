@@ -1,0 +1,12 @@
+Source: ros-indigo-evarobot-state-publisher
+Section: misc
+Priority: extra
+Maintainer: Mehmet Akcakoca <akcakocamehmet@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-tf
+Homepage: http://ros.org/wiki/evarobot_state_publisher
+Standards-Version: 3.9.2
+
+Package: ros-indigo-evarobot-state-publisher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-nav-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-tf
+Description: evarobot_state_publisher provides tf information of Evarobot links.
