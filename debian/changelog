@@ -1,0 +1,14 @@
+ros-indigo-evapc-ros (0.0.4-0saucy) saucy; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 02 Sep 2015 21:00:00 -0000
+
+ros-indigo-evapc-ros (0.0.2-0saucy) saucy; urgency=high
+
+  * created meta package.
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 27 Aug 2015 21:00:00 -0000
+
+
