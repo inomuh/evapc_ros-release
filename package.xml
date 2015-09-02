@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>evarobot_description</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>evarobot_description provides a complete 3D model of the Evarobot for simulation and visualization.</description>
 
   <author>Mehmet Akcakoca</author>
@@ -39,7 +39,8 @@
   <build_depend>diagnostic_updater</build_depend>
   <build_depend>camera_info_manager</build_depend>
   <build_depend>impc_msgs</build_depend>
-
+  <build_depend>hector_gazebo_plugins</build_depend>
+  
   <run_depend>gazebo</run_depend>
   <run_depend>gazebo_msgs</run_depend>
   <run_depend>gazebo_ros</run_depend>
@@ -65,5 +66,6 @@
   <run_depend>polled_camera</run_depend>
   <run_depend>camera_info_manager</run_depend>
   <run_depend>impc_msgs</run_depend>
+  <run_depend>hector_gazebo_plugins</run_depend>
 
 </package>
