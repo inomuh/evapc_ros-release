@@ -1,3 +1,31 @@
+## evapc_ros (indigo) - 0.0.5-0
+
+The packages in the `evapc_ros` repository were released into the `indigo` distro by running `/usr/bin/bloom-release evapc_ros --track indigo --rosdistro indigo` on `Thu, 03 Sep 2015 08:29:41 -0000`
+
+These packages were released:
+- `evapc_ros`
+- `evarobot_description`
+- `evarobot_navigation`
+- `evarobot_pose_ekf`
+- `evarobot_slam`
+- `evarobot_state_publisher`
+- `impc_msgs`
+
+Version of package(s) in repository `evapc_ros`:
+- upstream repository: https://github.com/inomuh/evapc_ros
+- release repository: https://github.com/inomuh/evapc_ros-release.git
+- rosdistro version: `0.0.4-0`
+- old version: `0.0.4-0`
+- new version: `0.0.5-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.37`
+
+
 ## evapc_ros (indigo) - 0.0.4-0
 
 The packages in the `evapc_ros` repository were released into the `indigo` distro by running `/usr/bin/bloom-release evapc_ros --track indigo --rosdistro indigo` on `Wed, 02 Sep 2015 21:15:22 -0000`
