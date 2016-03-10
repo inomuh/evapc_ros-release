@@ -1,0 +1,12 @@
+Source: ros-indigo-evarobot-slam
+Section: misc
+Priority: extra
+Maintainer: Mehmet Akcakoca <akcakocamehmet@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/evarobot_slam
+Standards-Version: 3.9.2
+
+Package: ros-indigo-evarobot-slam
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-evapc-start, ros-indigo-evarobot-diagnostics, ros-indigo-evarobot-pose-ekf, ros-indigo-evarobot-state-publisher, ros-indigo-hector-geotiff, ros-indigo-hector-mapping, ros-indigo-master-discovery-fkie, ros-indigo-master-sync-fkie
+Description: evarobot_slam provides roslaunch scripts for SLAM map building with the Evarobot.
