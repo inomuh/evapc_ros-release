@@ -1,0 +1,49 @@
+ros-indigo-evapc-start (0.0.6-1saucy) saucy; urgency=high
+
+  * install scripts folder
+  * add script which gives permission to sensor
+  * add sync.launch which opens master_discovery and master_sync
+  * add sync.launch which opens master_discover and master_sync
+  * add master_discovery and master_sync launch files
+  * update
+  * add scripts to change root of lidar and laser sensor drivers
+  * add launch files for hokuyo laser
+  * add comment for using sudo command without password
+  * use openni2 instead of openni for asus xtion
+  * add new launch file to run lidar with master_discovery
+  * add demo start launch file
+  * add changelog
+  * configure dependencies
+  * first commit
+  * Contributors: Mehmet Akcakoca
+  * configure dependencies
+  * first commit
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 09 Mar 2016 22:00:00 -0000
+
+ros-indigo-evapc-start (0.0.5-1saucy) saucy; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 03 Sep 2015 08:22:00 -0000
+
+ros-indigo-evapc-start (0.0.4-1saucy) saucy; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 02 Sep 2015 21:04:00 -0000
+
+ros-indigo-evapc-start (0.0.3-1saucy) saucy; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Fri, 28 Aug 2015 21:00:00 -0000
+
+ros-indigo-evapc-start (0.0.2-1saucy) saucy; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 27 Aug 2015 21:00:00 -0000
+
+
