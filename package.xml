@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>evarobot_slam</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>evarobot_slam provides roslaunch scripts for SLAM map building with the Evarobot.</description>
 
   <author>Mehmet Akcakoca</author>
@@ -12,9 +12,12 @@
   <url type="bugtracker">https://github.com/inomuh/evapc_ros/issues</url>
   
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>rplidar_ros</build_depend>
-  <build_depend>teleop_twist_keyboard</build_depend>
-  <run_depend>rplidar_ros</run_depend>
-  <run_depend>teleop_twist_keyboard</run_depend>
-
+  <run_depend>hector_geotiff</run_depend>
+  <run_depend>hector_mapping</run_depend>
+  <run_depend>master_discovery_fkie</run_depend>
+  <run_depend>master_sync_fkie</run_depend>
+  <run_depend>evarobot_pose_ekf</run_depend>
+  <run_depend>evarobot_state_publisher</run_depend>
+  <run_depend>evapc_start</run_depend>
+  <run_depend>evarobot_diagnostics</run_depend>
 </package>
