@@ -1,0 +1,25 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package evarobot_description
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+0.0.5 (2015-09-03)
+------------------
+
+0.0.4 (2015-09-03)
+------------------
+* Add hector_gazebo_plugins to dependencies of evarobot_description
+* Contributors: Mehmet Akcakoca
+
+0.0.2 (2015-08-28)
+------------------
+* modified sensors in gazebo model
+* modified placement of sonar and infrared sensors
+* added eva50 gazebo model
+* ...
+* ...
+* modified robot state
+* added bumpers
+* converted urdf to xacro
+* fixed gazebo sensors and added new gazebo world
+* packages added
+* Contributors: Mehmet Akcakoca
