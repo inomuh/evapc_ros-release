@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>evarobot_pose_ekf</name>
-  <version>0.0.5</version>
+  <version>0.0.6</version>
   <description>evarobot_pose_ekf provides roslaunch scripts for correction of the Evarobot's orientation with an IMU sensor.</description>
   
   <author>Mehmet Akcakoca</author>
@@ -12,5 +12,5 @@
   <url type="bugtracker">https://github.com/inomuh/evapc_ros/issues</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-
+  <run_depend>robot_pose_ekf</run_depend>
 </package>
