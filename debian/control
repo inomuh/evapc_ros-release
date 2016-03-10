@@ -1,0 +1,12 @@
+Source: ros-indigo-evarobot-description
+Section: misc
+Priority: extra
+Maintainer: Mehmet Akcakoca <akcakocamehmet@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/evarobot_description
+Standards-Version: 3.9.2
+
+Package: ros-indigo-evarobot-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-urdf, ros-indigo-xacro
+Description: evarobot_description provides a complete 3D model of the Evarobot for simulation and visualization.
