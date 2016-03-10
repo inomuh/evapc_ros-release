@@ -1,0 +1,55 @@
+ros-indigo-evarobot-description (0.0.6-0trusty) trusty; urgency=high
+
+  * modify robot model for new mesh files
+  * separate gazebo libraries from evarobot_description
+  * change odom frame id (odom_combined) in gazebo plugin
+  * include config file
+  * configure dependencies
+  * delete unused lines
+  * delete unused meshes
+  * add dae version of wheel
+  * fix communication problem with evarobot
+  * changes for multi evarobot
+  * change stl with dae
+  * modify for multi evarobot
+  * changes for multi evarobot in gazebo
+  * change .stl with collada
+  * Add argument world_path
+  * changelog
+  * fix warning GetValueDouble -> Get<double>
+  * Contributors: Mehmet Akcakoca
+  * fix warning GetValueDouble -> Get<double>
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 09 Mar 2016 22:00:00 -0000
+
+ros-indigo-evarobot-description (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 02 Sep 2015 21:00:00 -0000
+
+ros-indigo-evarobot-description (0.0.4-0trusty) trusty; urgency=high
+
+  * Add hector_gazebo_plugins to dependencies of evarobot_description
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Wed, 02 Sep 2015 21:00:00 -0000
+
+ros-indigo-evarobot-description (0.0.2-0trusty) trusty; urgency=high
+
+  * modified sensors in gazebo model
+  * modified placement of sonar and infrared sensors
+  * added eva50 gazebo model
+  * ...
+  * ...
+  * modified robot state
+  * added bumpers
+  * converted urdf to xacro
+  * fixed gazebo sensors and added new gazebo world
+  * packages added
+  * Contributors: Mehmet Akcakoca
+
+ -- Mehmet Akcakoca <akcakocamehmet@gmail.com>  Thu, 27 Aug 2015 21:00:00 -0000
+
+
