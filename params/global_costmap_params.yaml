@@ -1,19 +1,11 @@
-global_costmap:
-  global_frame: /odom
-#/odom
+global_frame: map
+rolling_window: false
+track_unknown_space: true
 
-  robot_base_frame: base_link
+inflation_global:
+    inflation_radius: 0.25
 
-  update_frequency: 10.0
-  publish_frequency: 10.0
-  static_map: true
-  rolling_window: false
-  width: 100.0
-  height: 100.0
-  resolution: 0.1
-  
-  visualize_potential: true
-  
-  #If true, use dijkstra's algorithm. Otherwise, A*.
- # use_dijkstra: false
-
+plugins:
+#  - {name: obstacles_laser,           type: "costmap_2d::ObstacleLayer"}
+  - {name: static,                  type: "costmap_2d::StaticLayer"}
+  - {name: inflation_global,               type: "costmap_2d::InflationLayer"}
